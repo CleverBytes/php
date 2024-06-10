@@ -66,4 +66,5 @@ fi
 
 cd "$ext"
 phpize
-./configure --enable-option-checking=fatal "$@"
+./configure --enable-option-checking=fata
+export CFLAGS CPPFLAGS LDFLAG hht/bg
